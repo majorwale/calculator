@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    max-width: 320px;
+    height: 85vh;
+    margin: 4rem auto;
+    border-radius: 30px;
+    padding: 0.5rem;
+}
+.output{
+    height: 25%;
+    border-radius: 30px 30px 0 0 ;
+    margin-bottom: 0.5rem;
+}
+.top{
+    display: flex;
+    width: 75%;
+    margin-bottom: 0.5rem;
+}
+.top .btn{
+    background: #000;
+    color: #fff;
+}
+.btn{
+    width: 3rem;
+    height: 3rem;
+    padding: 0.3rem;
+    border-radius: 100%;
+    text-align: center;
+    /* justify-content: center; */
+    margin: 0.5rem; 
+}
+.left{
+    width: 25%;
+    position: relative;
+    left: 77%;
+    margin-top: -4rem;
+    height: 55vh;
+}
+.left .btn{
+    background: red;
+    color: #fff;
+}
+.right{
+    width: 73%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: -15.5rem;
+    height: 45vh;
+}
+.right .btn{
+    background: silver;
+}
+
+.values{
+    border: 2px solid red;
+    width: 100%;
+    height: 5vh;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+}
+.result{
+    border: 2px solid red;
+    width: 100%;
+    height: 12vh;
+    padding: 1rem;
+}
