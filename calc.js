@@ -1,6 +1,6 @@
 // const btn = document.getElementsByClassName("btn");
 const btn = document.querySelectorAll("#num-btn");
-const vals = document.querySelector(".vals");
+const vals = document.querySelector(".box");
 const ans = document.querySelector("#ans");
 const clear = document.getElementById("sym-cancel");
 const finalResult = document.querySelector(".result");
@@ -21,10 +21,6 @@ for (let i = 0; i < btn.length; i++) {
 clear.addEventListener("click", () => {
   vals.textContent = "";
   finalResult.textContent = "0";
-});
-// for deleting values one at a time';
-remove.addEventListener("click", (e) => {
-  vals.textContent.splice(-1);
 });
 
 function additions(array) {
